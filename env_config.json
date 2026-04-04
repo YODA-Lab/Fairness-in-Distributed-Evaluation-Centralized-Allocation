@@ -1,0 +1,30 @@
+{
+  "BiasedDM": {
+    "n_agents": 5
+  },
+
+  "Plant": {
+    "n_agents": 5,
+    "n_resources": 8,
+    "gridsize": 8
+  },
+  
+  "Simple": {
+    "n_agents": 2
+  },
+  
+  "Job":{
+    "n_agents":4,
+    "gridsize":7
+  },
+
+  "JobAlloc":{
+    "n_agents":4
+  },
+  
+  "Matthew":{
+    "n_agents":10,
+    "n_resources":3,
+    "max_size":0.5
+  }
+}

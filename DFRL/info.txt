@@ -1,0 +1,3 @@
+Code from the DFRL repository for the paper:
+Learning Fair Policies in Decentralized Cooperative Multi-Agent Reinforcement Learning
+<https://gitlab.com/AAAL/DFRL>

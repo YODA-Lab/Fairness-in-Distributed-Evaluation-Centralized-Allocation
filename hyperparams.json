@@ -1,0 +1,74 @@
+{
+    "Matthew":
+    {
+        "simple_obs": false,
+        "n_episode": 1000,
+        "max_steps": 200,
+        "learning_rate": 0.0003,
+        "model_update_freq": 50,
+        "best_model_update_freq": 50,
+        "model_save_freq": 1000,
+        "hidden_size": 20,
+        "warm_start": 5
+    },
+    "Job":
+    {
+        "simple_obs": true,
+        "n_episode": 1000,
+        "max_steps": 100,
+        "learning_rate": 0.0003,
+        "model_update_freq": 50,
+        "best_model_update_freq": 50,
+        "model_save_freq": 1000,
+        "warm_start": 3
+    },
+    "JobAlloc":
+    {
+        "simple_obs": true,
+        "n_episode": 1000,
+        "max_steps": 100,
+        "learning_rate": 0.0003,
+        "model_update_freq": 50,
+        "best_model_update_freq": 50,
+        "model_save_freq": 1000,
+        "warm_start": 3
+    },
+    "Plant":
+    {
+        "simple_obs": false,
+        "n_episode": 1000,
+        "max_steps": 200,
+        "learning_rate": 0.0003,
+        "hidden_size": 20,
+        "model_update_freq": 50,
+        "best_model_update_freq": 50,
+        "model_save_freq": 1000,
+        "warm_start": 1,
+        "tag": ""
+    },
+    "BiasedDM":
+    {
+        "simple_obs": true,
+        "n_episode": 200,
+        "max_steps": 100,
+        "learning_rate": 0.0003,
+        "hidden_size": 20,
+        "model_update_freq": 50,
+        "best_model_update_freq": 20,
+        "model_save_freq": 200,
+        "warm_start": 2,
+        "past_discount": 0.999
+    },
+    "Simple":
+    {
+        "simple_obs": false,
+        "n_episode": 100,
+        "max_steps": 100,
+        "learning_rate": 0.0003,
+        "hidden_size": 20,
+        "model_update_freq": 20,
+        "best_model_update_freq": 10,
+        "model_save_freq": 100,
+        "warm_start": 50
+    }
+}
